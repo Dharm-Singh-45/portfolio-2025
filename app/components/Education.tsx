@@ -55,11 +55,6 @@ export default function Education() {
                   </span>
                 </div>
               </div>
-              {edu.description && (
-                <p className="text-sm lg:text-base text-gray-600 leading-relaxed mt-4 pt-4 border-t border-blue-200">
-                  {edu.description}
-                </p>
-              )}
             </div>
           ))}
         </div>
