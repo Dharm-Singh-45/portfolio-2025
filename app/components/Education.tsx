@@ -16,7 +16,7 @@ export default function Education() {
       degree: 'Class 12',
       field: 'PCM (Physics, Chemistry, Mathematics)',
       institution: '',
-      year: '2012 - 2013',
+      year: '2013',
     },
   ];
 
