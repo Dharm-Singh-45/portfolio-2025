@@ -347,7 +347,7 @@ export default function Contact() {
                 </a>
               ))}
               <a
-                href="/Dharm-singh-fullstack-resume.pdf"
+                href="/DharmSingh_FSD.pdf"
                 download="Dharm_Singh_Resume.pdf"
                 className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow group"
               >

@@ -44,7 +44,7 @@ export default function Hero() {
               View My Work
             </button>
             <a
-              href="/Dharm-singh-fullstack-resume.pdf"
+              href="/DharmSingh_FSD.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-700 transition-colors shadow-lg hover:shadow-xl text-center flex items-center justify-center gap-2"
