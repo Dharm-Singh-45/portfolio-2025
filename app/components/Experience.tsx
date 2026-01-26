@@ -2,6 +2,18 @@ export default function Experience() {
   const experiences = [
     {
       title: 'Full Stack Developer',
+      company: 'Damco Solutions',
+      location: 'Noida, India',
+      period: 'September 2025–Present',
+      description: [
+        'Engineered admin dashboard and test platform for UH project supporting new hospital employee onboarding',
+        'Architected backend APIs using Node.js, Express, Azure Storage Table, Azure Blob Storage, and PostgreSQL with caching layer',
+        'Integrated Azure services to fetch and manage data with 30% faster response times',
+        'Created frontend using Next.js and React.js with complete audit and event log tracking for 500 daily users',
+      ],
+    },
+    {
+      title: 'Full Stack Developer',
       company: 'NxtGen Cloud Technologies',
       location: 'Bangalore',
       period: 'April 2025 – July 2025',
