@@ -16,17 +16,25 @@ export default function About() {
         
         <div className="grid md:grid-cols-2 gap-12 items-start mb-12">
           <div className="space-y-6">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6 lg:p-8 shadow-lg border border-blue-200 hover:shadow-xl transition-shadow">
+              <div className="flex items-start mb-4">
+                <span className="text-3xl mr-4">👑</span>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">Product Ownership & Founder Mindset</h3>
+                  <p className="text-lg text-gray-700 leading-relaxed">
+                    Beyond writing code, I bring end-to-end product ownership and an entrepreneurial mindset. By architecting, launching, and scaling <strong className="text-blue-600">RajasthanTestSeries.com</strong> to 9,000+ real student users, I understand the complete software lifecycle—from system architecture, database design, and SEO growth to revenue accounting, affiliate campaign engines, and zero-downtime reliability.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <div className="bg-white rounded-xl p-6 lg:p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow">
               <div className="flex items-start mb-4">
                 <span className="text-3xl mr-4">💻</span>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">Full Stack Developer</h3>
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    I'm a software developer with a strong focus on the MERN stack,
-                    including React, Redux Toolkit, Node.js, Express, and MongoDB.
-                    With a solid foundation in frontend and backend development, I
-                    build user-centered web applications that are functional and
-                    responsive.
+                    I'm a Full Stack Developer with 4+ years of hands-on experience building scalable web applications, NestJS microservices, and modern user interfaces with React, Next.js, Node.js, Express, and MongoDB.
                   </p>
                 </div>
               </div>
@@ -65,12 +73,9 @@ export default function About() {
               <div className="flex items-start mb-4">
                 <span className="text-3xl mr-4">🚀</span>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Continuous Learning</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">Continuous Learning & Microservices</h3>
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    I'm passionate about staying updated with the latest technologies and best practices.
-                    I actively explore advanced concepts like microservices, cloud deployment, and
-                    performance optimization. I'm always excited to learn new tools and tackle challenging
-                    projects that push my boundaries as a developer.
+                    I'm passionate about staying updated with the latest engineering best practices. I actively design distributed systems, event-driven background queues (Redis + Bull Queue), and performance-optimized Next.js and NestJS microservices.
                   </p>
                 </div>
               </div>
@@ -81,14 +86,19 @@ export default function About() {
             <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Key Highlights</h3>
             <div className="space-y-6">
               <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow text-center border border-gray-100">
-                <div className="text-5xl font-bold text-blue-600 mb-2">5+</div>
-                <div className="text-gray-700 font-semibold text-lg">Projects</div>
-                <div className="text-gray-500 text-sm mt-1">Completed & Deployed</div>
+                <div className="text-5xl font-bold text-emerald-600 mb-2">9,000+</div>
+                <div className="text-gray-700 font-semibold text-lg">Real Student Users</div>
+                <div className="text-gray-500 text-sm mt-1">Exam Attempt Submissions & Top Google SEO</div>
               </div>
               <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow text-center border border-gray-100">
-                <div className="text-5xl font-bold text-blue-600 mb-2">3+</div>
+                <div className="text-5xl font-bold text-blue-600 mb-2">7+</div>
+                <div className="text-gray-700 font-semibold text-lg">Services & Applications</div>
+                <div className="text-gray-500 text-sm mt-1">Microservices Architecture & Portals</div>
+              </div>
+              <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow text-center border border-gray-100">
+                <div className="text-5xl font-bold text-blue-600 mb-2">4+</div>
                 <div className="text-gray-700 font-semibold text-lg">Years Experience</div>
-                <div className="text-gray-500 text-sm mt-1">Professional Development</div>
+                <div className="text-gray-500 text-sm mt-1">Full Stack Development</div>
               </div>
               <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow text-center border border-gray-100">
                 <div className="text-5xl font-bold text-blue-600 mb-2">23+</div>

@@ -1,6 +1,20 @@
 export default function Experience() {
   const experiences = [
     {
+      title: 'Founder & Lead Full Stack Architect',
+      company: 'Rajasthan Test Series (ITS System)',
+      location: 'India',
+      period: 'April 2026–Present',
+      description: [
+        'Built and launched as an independent SaaS venture (side project alongside full-time career) serving 9,000+ real student test-takers with top Google search rankings.',
+        'Architected a distributed EdTech SaaS ecosystem consisting of 7 microservices & frontend applications using NestJS, Next.js 16 (App Router), React 19, MongoDB, and Redis.',
+        'Engineered high-concurrency NTA/TCS iON styled CBT exam simulator with real-time response evaluation, section switching, and instant percentile leaderboard generation.',
+        'Implemented async event-driven notification queue system using Redis & Bull Queues, eliminating HTTP API blocking for transactional emails.',
+        'Designed bilingual content builder studio enabling Subject Matter Experts to ingest, structure, and publish multilingual question banks and exam papers.',
+        'Built growth campaign engine managing affiliate promoter accounts, discount coupons, referral link tracking, and automated commission calculations.',
+      ],
+    },
+    {
       title: 'Full Stack Developer',
       company: 'Damco Solutions',
       location: 'Noida, India',
@@ -30,10 +44,10 @@ export default function Experience() {
       location: 'Jodhpur',
       period: 'August 2023 - March 2025',
       description: [
-        'Developed a web platform enabling students and teachers to register, connect, and manage tuition services based on subject, fees, and location.',
-        'Implemented search and filter functionality for students to find teachers according to specific requirements.',
-        'Integrated a secure payment gateway to allow parents to pay tuition fees directly through the platform.',
-        'Built an attendance management system where students can mark teacher absences, triggering extra class time allocation to cover missed sessions.',
+        'Engineered web platform enabling students and parents to discover, connect, and manage home tuition services based on subject, fees, and location.',
+        'Implemented search and filter functionality for parents to find qualified home tuition teachers matching specific subject requirements.',
+        'Integrated secure payment gateway allowing parents to pay tuition fees directly through the platform.',
+        'Built an attendance management system for tracking teacher sessions and extra class allocations.',
       ],
     },
     {
