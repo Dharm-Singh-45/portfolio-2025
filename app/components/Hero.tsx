@@ -24,10 +24,18 @@ export default function Hero() {
           <p className="text-2xl md:text-3xl text-gray-700 mb-4 animate-fade-in-delay">
             Full Stack Developer
           </p>
-          <div className="mb-4 animate-fade-in-delay-2">
+          <div className="mb-4 animate-fade-in-delay-2 flex flex-wrap justify-center gap-3">
             <span className="inline-block px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm md:text-base font-semibold border-2 border-green-300">
-              🚀 Open to Freelance Work
+              🚀 Open to Opportunities
             </span>
+            <a
+              href="https://www.rajasthantestseries.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-4 py-2 bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-full text-sm md:text-base font-semibold border-2 border-blue-300 transition-colors"
+            >
+              ⚡ Founder @ RajasthanTestSeries.com (9,000+ Users) ↗
+            </a>
           </div>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-8 animate-fade-in-delay-2">
             I build beautiful, responsive, and user-friendly web applications
@@ -44,7 +52,7 @@ export default function Hero() {
               View My Work
             </button>
             <a
-              href="/DharmSingh_FSD.pdf"
+              href="/Dharm_FullStack_Resume_25-aug-2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-700 transition-colors shadow-lg hover:shadow-xl text-center flex items-center justify-center gap-2"

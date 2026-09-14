@@ -72,7 +72,7 @@ export default function Navbar() {
               Contact
             </button>
             <a
-              href="/DharmSingh_FSD.pdf"
+              href="/Dharm_FullStack_Resume_25-aug-2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
